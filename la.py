@@ -8,7 +8,7 @@ def solve(A, b):
 
     """solve(A,b)
     A - matrix m,k
-    b - matrix k,1
+    b - matrix k,1 ..
     x- list of solution [x_1, x_2, ...,x_n]
 
     using Gauss Method
@@ -38,7 +38,7 @@ def solve(A, b):
         print(b)
 
     
-
+  
     #2.back substitution
     # x[n-1] = b[n-1] / A[n-1][n-1]
     for k in range(n-1, -1 ,-1):
