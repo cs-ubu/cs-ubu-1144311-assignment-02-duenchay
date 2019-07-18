@@ -6,3 +6,8 @@ def readm(fname='A.csv'):
     f.close()
     return A
 
+def printm(m):
+    for row in m:
+        # print([ f'{x:5.2}' for x in row ])
+        print(' '.join([ f'{x:5.2}' for x in row ]))
+        # print([ str(x) for x in row])
